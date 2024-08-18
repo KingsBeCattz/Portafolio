@@ -69,7 +69,7 @@ export default defineComponent({
       <ThemeButtonShort @theme="checkTheme" :class="`${mobile ? 'hide' : ''}`"/>
       <div large v-if="!mobile" >
         <LinkIcon url="https://github.com/KingsBeCattz" :src="github"/>
-        <LinkIcon url="https://github.com/KingsBeCattz/Portafolio-Vue" :src="developer" :scale="70"/>
+        <LinkIcon url="https://github.com/KingsBeCattz/Portafolio" :src="developer" :scale="70"/>
       </div>
       <Menu :class="`${!mobile ? 'hide' : ''}`" :mobile="mobile" @theme="checkTheme"/>
     </div>

@@ -1,0 +1,2 @@
+# Welcome!
+Hi nice to meet you, I see you are interested in seeing how I made my portfolio, in the src folder is located all the code in vue next to assets, in dist the page that is shown in github pages and public general

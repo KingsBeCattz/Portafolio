@@ -1,0 +1,58 @@
+:root {
+  /* This is for some reasons ;) */
+  transition: all 0s;
+}
+
+body {
+    margin: 0px;
+    transition: all .1s ease;
+    font-family: Nunito, Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+
+    &::-webkit-scrollbar {
+      display: none
+    }
+  }
+
+  noscript {
+    background-color: #232323;
+    color: #f8f8f8;
+  }
+
+  .hide {
+    display: none
+  }
+
+  .view {
+    padding-top: 70px;
+    padding-bottom: 10px;
+    z-index: 0
+  }
+
+  .not-found {
+    font-size: 200%
+  }
+
+  .navbar {
+    z-index: 1
+  }
+
+  h1 {
+    font-size: 300%;
+    font-weight: bolder;
+    margin: 45px 10px 45px 10px;
+  }
+
+  @media (max-width: 610px) {
+    h1 {
+      font-size: 200%
+    }
+  }
+
+  @media (max-width: 315px) {
+    h1 {
+      font-size: 150%
+    }
+  }

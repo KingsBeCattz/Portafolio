@@ -5,7 +5,8 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "servebuild": "vue-cli-service build && serve -s dist"
+    "servebuild": "vue-cli-service build && serve -s dist",
+    "srv": "serve -s dist"
   },
   "dependencies": {
     "@types/prismjs": "^1.26.4",
